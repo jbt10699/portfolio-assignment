@@ -18,7 +18,7 @@ export default class App extends React.Component {
     }
   }
 
-  //Function for only showing the contact component
+  //Functions for setting variables to conditionally render certain components
   contactHandler() {
     this.setState({
       showOnlyProjects: false,
@@ -84,8 +84,6 @@ export default class App extends React.Component {
 
 //Navbar
 class Navigation extends React.Component {
-
-
 
   render() {
     return (
